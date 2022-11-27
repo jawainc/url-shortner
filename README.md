@@ -33,3 +33,5 @@ Before deployment clone the project in another directory. To avoid deployemnt er
 
 * Use the official guide for [Deploying on gigalixir](https://hexdocs.pm/phoenix/1.7.0-rc.0/gigalixir.html)
 * Dont miss any step, its crucial for deployment
+* Environment variables will be created for you, If you need to add more then go to your gigalixir app dashboard and add variables under `Configuration tab`. you may need to add host name variable there for this to properly work.
+* you can find the viariable in `config/runtime.exs` and look for this line `host = System.get_env("PHX_HOST") || "example.com"`
