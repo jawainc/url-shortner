@@ -27,7 +27,7 @@ makesure you have the following
 
 ## Deployment on Gigalixir
 
-Before deployment clone the project in another directory. To avoid deployemnt errors make sure you dont setup the project mix commands.
+Before deployment clone the project in another directory. To avoid deployemnt errors make sure you dont use any setup mix commands.
 
 ** on windows if there are deployment errors, use Linux or MAC. its a common problem with windows
 
